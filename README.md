@@ -1,13 +1,16 @@
-# strapi-provider-upload-aws-s3-opt
+# strapi-provider-upload-aws-s3-optimized
+Creates 3 additional images sizes and optimizes them before uploading to S3.  The three sizes will share the url of the original file with the size attached.  
 
-This Strapi upload provider stores your images to S3 after resizing and compressing
+Examples: 
+Small Size: https://yourbucket.s3.us-west-1.amazonaws.com/fsf4be14b028c0-S.jpg
+Medium Size: https://yourbucket.s3.us-west-1.amazonaws.com/fsf4be14b028c0-M.jpg
+Large Size: https://yourbucket.s3.us-west-1.amazonaws.com/fsf4be14b028c0-L.jpg
+WebP (Created for each size if enabled): https://yourbucket.s3.us-west-1.amazonaws.com/fsf4be14b028c0-L.webp
 
 ## Installation
-
 ```bash
-npm install strapi-provider-upload-aws-s3-opt
+npm install strapi-provider-upload-aws-s3-optimized
 ```
 
 ## Usage
-
-In your Strapi installation you now can use this provider in the settings for the File Upload extension. You need to provide your S3 api key and secret access token and provide a width and JPEG quality.
+This is a work in progres. Let me know if you would like to see anything added.
