@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-aws-s3-optimized",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Strapi AWS S3 Provider that also generates 3 additional image sizes and WebP images for each size.  The additional images are all created & optimized with Sharp.js",
   "license": "ISC",
   "homepage": "http://strapi.io",
