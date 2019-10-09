@@ -6,6 +6,10 @@ Do not add px, it must be formatted just like the example below.
 Example Sizes: 
 1920x1080,1336x768,768x1024,1024x600
 
+The S3 url will have a prefix of your size:
+-1920x1080.jpg
+-1920x1080.webp
+
 ## Installation
 ```bash
 npm install strapi-provider-upload-aws-s3-optimized
