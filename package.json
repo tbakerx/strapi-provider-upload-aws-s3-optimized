@@ -1,7 +1,7 @@
 {
-  "name": "strapi-provider-upload-aws-s3-optimized",
+  "name": "strapi-provider-upload-s3-optimized",
   "version": "3.0.0-beta.16.9.1",
-  "description": "Strapi AWS S3 Provider that also generates optimized additional image sizes & WebP's.",
+  "description": "Strapi S3 Provider that supports any endpoint and generates optimized additional image sizes & WebP's.",
   "license": "ISC",
   "homepage": "http://strapi.io",
   "keywords": [
@@ -22,12 +22,12 @@
     "isProvider": true
   },
   "author": {
-    "email": "garrett.fritz.dev@gmail.com",
-    "name": "gfritzdev"
+    "email": "medicalmasterpiece@gmail.com",
+    "name": "kiwimonk"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:gfritzdev/strapi-provider-upload-aws-s3-optimized.git"
+    "url": "git@github.com:kiwimonk/strapi-provider-upload-s3-optimized.git"
   },
   "engines": {
     "node": ">= 10.0.0",
